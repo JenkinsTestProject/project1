@@ -7,6 +7,7 @@ package test;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.Ignore;
 
 
 /**
@@ -31,7 +32,7 @@ public class HelloWorldTest {
         Assert.assertTrue(true);
     }
 
-    @Test
+    @Ignore
     public void thirdTest() {
         Assert.assertTrue(true);
     }
